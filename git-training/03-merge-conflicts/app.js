@@ -1,2 +1,3 @@
-function greet(){ return "Hello from Manas!!!!"; }
+
+function greet(){ return "Hello everyone i am good"; }
 
