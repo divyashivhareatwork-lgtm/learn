@@ -1,1 +1,2 @@
-function greet(){ return "Hello World!"; }
+function greet(){ return "Hello HIMANSHU CHAUHAN"; }
+function greet(){ return "Namaste Duniya"; }
