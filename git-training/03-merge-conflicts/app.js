@@ -1,1 +1,3 @@
-function greet(){ return "Namaskar Duniya!"; }
+
+function greet(){ return "Hello  Manas!"; }
+
