@@ -1,2 +1,1 @@
-function greet(){ return "Hello Ayushpandey1"; }
-
+function greet(){ return "Hello everyone i am good"; }
