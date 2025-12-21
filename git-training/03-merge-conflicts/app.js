@@ -1,1 +1,1 @@
-function greet(){ return "Hello lognormal!"; }
+function greet(){ return "Hello Peeps!"; }
