@@ -37,7 +37,7 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
-    needs: ci
+    needs: run-ci
 
     steps:
       - name: Checkout repository
