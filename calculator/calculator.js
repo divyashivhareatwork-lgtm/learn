@@ -5,4 +5,5 @@ function div(a, b) {
     if (Number(b) === 0) throw new Error("Division by zero");
     return Number(a) / Number(b);
 }
-module.exports = { add, sub, mul, div };
+function mod(a, b) { return Number(a) % Number(b); }
+module.exports = { add, sub, mul, div, mod };
