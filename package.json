@@ -5,7 +5,9 @@
   "scripts": {
     "test": "jest --coverage",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "build": "echo 'Building project...' && mkdir -p dist && cp -r calculator/* dist/",
+    "deploy": "echo 'Deploying project...'"
   },
   "devDependencies": {
     "eslint": "^8.57.1",

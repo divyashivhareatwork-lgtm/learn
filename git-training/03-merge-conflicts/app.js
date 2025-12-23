@@ -1,1 +1,3 @@
-function greet(){ return "Hello World Again!"; }
+function greet() {
+  return 'Hello World Again!';
+}
