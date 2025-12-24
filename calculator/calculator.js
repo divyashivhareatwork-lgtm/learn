@@ -1,8 +1,8 @@
 function add(a, b) {
   return Number(a) + Number(b);
 }
-function sub(a, b) {
-  return Number(a) - Number(b);
+function sub(a, c) {
+  return Number(a) - Number(c);
 }
 function mul(a, b) {
   return Number(a) * Number(b);
