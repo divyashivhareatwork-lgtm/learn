@@ -18,11 +18,6 @@ kubectl get pod
 
 kubectl get replicaset
 
-
-
-
-
-
 kubectl exec -it mongo-depl-[]-[] -- bin/bash
 #inside that pod
 
@@ -49,23 +44,15 @@ kubectl apply -f nginx-service.yaml
 
 kubectl get service
 
-kubectl describe servcie nginx-service
-
+kubectl describe service nginx-service
 
 echo -n 'username' | base64
 echo -n 'password' | base64
-
-
-
 
 kubectl apply -f mongo-secret.yaml
 kubectl apply -f mongo.yaml
 kubectl apply -f mongo-configmap.yaml
 kubectl apply -f mongo-express.yaml
-
-
-
-
 
 kubectl get pod
 kubectl get pod --watch
@@ -74,20 +61,9 @@ kubectl get service
 kubectl get secret
 kubectl get all | grep mongodb
 
-
-
-
-
 kubectl describe pod mongodb-deployment-xxxxxx
 kubectl describe service mongodb-service
 kubectl logs mongo-express-xxxxxx
 
-
-
 give a URL to external service in minikube
 minikube service mongo-express-service
-
-
-
-
-
