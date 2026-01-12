@@ -11,10 +11,4 @@ function div(a, b) {
   if (Number(b) === 0) throw new Error('Division by zero');
   return Number(a) / Number(b);
 }
-function mod(a, b) {
-  return Number(a) % Number(b);
-}
-function pow(a, c) {
-  return Number(a) ** Number(c);
-}
-module.exports = { add, sub, mul, div, mod, pow };
+module.exports = { add, sub, mul, div };
