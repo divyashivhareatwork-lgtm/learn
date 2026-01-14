@@ -14,4 +14,7 @@ function div(a, b) {
 function mod(a, b) {
   return Number(a) % Number(b);
 }
-module.exports = { add, sub, mul, div, mod };
+function pow(a, b) {
+  return Number(a) ** Number(b);
+}
+module.exports = { add, sub, mul, div, mod, pow };
